@@ -1,9 +1,14 @@
 import { useState } from 'react'
-
+import NavBar from './components/NavBar/NavBar';
 import './App.css'
 
 const App = () => {
-  return <h1>Hello world!</h1>;
+  return (
+  <>
+   <NavBar />
+   <p>Hello World</p>
+  </>
+  )
 };
 
 export default App;
